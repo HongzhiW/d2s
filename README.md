@@ -1,3 +1,16 @@
+This repo is forked from [dchu012/d2s](https://github.com/dschu012/d2s)
+
+The purpose is to add GoMule support
+
+Reference:
+* https://squeek502.github.io/d2itemreader/formats/atma.html (d2x format)
+* https://git.code.sf.net/p/gomule/git (gomule repo)
+
+---
+
+
+Original README of d2s repo
+
 ### d2s
 
 ![](https://github.com/dschu012/d2s/workflows/.github/workflows/release.yml/badge.svg)
