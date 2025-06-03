@@ -33,7 +33,7 @@ export async function read(
     reader.SkipBytes(4); // skip checksum
     if (!constants) constants = const99.constants;
     for (let i = 0; i < stash.itemCount; i++) {
-      stash.items.push(await items.readItem(reader, stash.version, constants, config, undefined, true));
+      stash.items.push(await items.readItem(reader, stash.version, constants, config, undefined));
     }
   }
   return stash;
