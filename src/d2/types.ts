@@ -435,3 +435,9 @@ export enum EItemQuality {
   exceptional,
   elite,
 }
+
+export interface IAtma {
+  version: number;
+  itemCount: number;
+  items: IItem[];
+}
